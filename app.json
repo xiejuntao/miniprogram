@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/life/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Life",
+    "navigationBarTextStyle":"black"
+  }
+  ,"tabBar": {
+    "list": [
+      {
+        "text": "home",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "life",
+        "pagePath": "pages/life/index"
+      },
+      {
+        "text": "log",
+        "pagePath": "pages/logs/logs"
+      }
+    ]
+  }
+  ,"workers": "workers"
+}

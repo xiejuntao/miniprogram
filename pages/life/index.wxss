@@ -1,0 +1,4 @@
+/* pages/life/index.wxss */
+.img_cls{
+  width:100%;
+}
